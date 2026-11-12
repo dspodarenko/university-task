@@ -1,0 +1,16 @@
+{
+  "name": "university-task",
+  "version": "1.0.0",
+  "description": "University management system: OOP in TypeScript",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
